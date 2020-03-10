@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
+  "name": "fill-out-template",
   "version": "0.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "A GitHub Action to enforce filling out issue and PR templates",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/lee-dohm/fill-out-template.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "YourNameOrOrganization",
+  "author": "Lee Dohm",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.0"

@@ -1,10 +1,10 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: fill-out-template
+description: Enforces completing issue and PR templates
+author: lee-dohm
 inputs:
-  myInput:              # change this
-    description: 'input description here'
-    default: 'default value if applicable'
+  token:
+    description: Token to use to perform actions on issues and PRs
+    required: true
 runs:
   using: 'node12'
   main: 'dist/index.js'
